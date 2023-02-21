@@ -2,7 +2,6 @@ from os import system, name
 def clear(): 
     if name == 'nt': 
         _ = system('cls') 
-#^^^^stole from StackOverflow lol
 
 A = int(input("Think of a number that your partner will try to guess: "))
 clear()
